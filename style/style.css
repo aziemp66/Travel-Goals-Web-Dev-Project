@@ -1,11 +1,13 @@
 #container {
     background-color: rgb(82, 23, 81);
     padding: 10px;
-    width: 600px;
+    /* width: 600px; */
     display: flex;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 p {
     background-color: rgb(211, 88, 209);
@@ -18,6 +20,8 @@ ul {
     width: 250px;
     margin: 10px;
     padding: 0;
+    display: flex;
+    text-align: right;
 }
 li {
     background-color: rgb(238, 212, 192);

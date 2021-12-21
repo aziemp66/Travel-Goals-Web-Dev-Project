@@ -7,6 +7,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+a:-webkit-any-link {
+    color: black;
+}
 #page-logo a {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
