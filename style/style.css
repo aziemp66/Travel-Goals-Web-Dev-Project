@@ -21,7 +21,7 @@ ul {
     margin: 10px;
     padding: 0;
     display: flex;
-    text-align: right;
+    justify-content: right;
 }
 li {
     background-color: rgb(238, 212, 192);
