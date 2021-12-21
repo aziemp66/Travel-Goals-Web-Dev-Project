@@ -24,8 +24,11 @@ p {
 
 #two {
     background-color: #c95bc7;
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #three {
