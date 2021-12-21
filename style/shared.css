@@ -13,8 +13,10 @@ ul {
     margin: 0;
     padding: 0;
 }
-a:-webkit-any-link {
+header a {
     color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 #page-logo a {
     padding: 10px;
