@@ -44,6 +44,10 @@
     background-color: rgb(185, 174, 7);
     text-shadow: 1px 1px 1px white;
 }
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(163, 228, 223));
+}
 #highlights h2 {
     text-transform: uppercase;
     text-align: center;
