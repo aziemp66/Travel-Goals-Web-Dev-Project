@@ -1,4 +1,4 @@
 # Travel-Goals-Web-Dev-Project
-WORK UNDER CONSTRUCTION
+Travel Websites that contains destination places to visits
 
 Website Links : https://travel-goals.netlify.app/
