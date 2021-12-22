@@ -6,8 +6,12 @@ header {
     position: static;
 }
 main ul {
-    width: 1500px;
+    width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto 48px auto;
 }
 main li {
     display: flex;
@@ -15,7 +19,14 @@ main li {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     border-radius: 6px;
     overflow: hidden;
-    width: 500px;
+}
+main li:nth-of-type(3) {
+    width: 1200px;
+    grid-column: 1 / span 2;
+}
+main li:nth-of-type(10) {
+    width: 1200px;
+    grid-column: 1 / span 2;
 }
 main li img {
     width: 300px;
