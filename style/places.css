@@ -5,6 +5,16 @@ body {
 header {
     position: static;
 }
+#page-logo a {
+    color: rgb(183, 230, 235);
+}
+#header-link a {
+    color: rgb(183, 230, 235);
+}
+#header-link a:hover {
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
 main ul {
     width: 1200px;
     margin: 0 auto;
@@ -38,6 +48,9 @@ main li img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.item-content h2 {
+    margin: 0;
 }
 .actions {
     text-align: right;
